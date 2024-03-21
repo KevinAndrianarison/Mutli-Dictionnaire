@@ -275,6 +275,7 @@ export default function Dictionnaire() {
               placeholder="Ecrire ici... "
               value={searchvalue}
               onChangeText={(val) => {
+                setShow(false)
                 setSearch(val);
               }}
             />
