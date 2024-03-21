@@ -5,6 +5,7 @@ export const appStyle = StyleSheet.create({
     width: "25%",
     height: "20%",
   },
+
   logo: {
     zIndex: 3,
     display: "flex",
@@ -110,6 +111,7 @@ export const appStyle = StyleSheet.create({
     top: "15%",
     flexDirection: "row",
     paddingTop: 5,
+    justifyContent: "center",
   },
   icone: {
     width: "10%",
@@ -118,7 +120,7 @@ export const appStyle = StyleSheet.create({
     alignItems: "center",
   },
   langfrom: {
-    width: "45%",
+    width: "50%",
     height: "100%",
     backgroundColor: "white",
     borderRadius: 10,
